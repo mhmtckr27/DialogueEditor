@@ -1,0 +1,66 @@
+DialogueNode #title{
+    background-color: rgb(203, 145, 70);
+}
+
+DialogueNode #title > Label{
+    color: #252525;
+    font-size: 18;
+}
+
+.unity-base-popup-field__text {
+   font-size: 20; 
+}
+
+.unity-base-popup-field__input {
+    background-color:#252525;
+}
+
+DialogueNode > Label {
+    color: blueviolet;
+}
+
+DialogueNode #input {
+    color: blueviolet;
+}
+
+
+DialogueNode #input > Label{
+    color: blueviolet;
+}
+
+DialogueNode #title > TextField > TextInput{
+    min-width: 60;
+}
+
+
+DialogueNode #title > TextField > Label{
+    min-width: 25;
+    font-size: 14;
+    background-color: rgba(0, 0, 0, 0);
+    color: #262626;
+    align-self: center;
+}
+
+
+DialogueNode #title > TextField > TextInput{
+    font-size: 20;
+}
+
+
+
+TextField{
+    color: aquamarine;
+    flex-wrap: wrap;
+    white-space: normal;
+}
+
+TextField > Label{
+    min-width: 75;
+    background-color: #363636;
+}
+
+
+TextInput{
+    color: #ffbf6d;
+    flex-wrap: wrap;
+}
